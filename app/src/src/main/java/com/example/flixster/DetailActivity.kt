@@ -15,8 +15,9 @@ import com.google.android.youtube.player.YouTubePlayerView
 import okhttp3.Headers
 
 private const val TAG = "DetailActivity"
-private const val YOUTUBE_API_KEY = "AIzaSyCycEXgq4H_8EuWxKMJvLDgO60tqvj4Tg0"
-private const val TRAILERS_URL = "https://api.themoviedb.org/3/movie/%d/videos?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed"
+// Replace with your own API key and Trailers URL key
+private const val YOUTUBE_API_KEY = "3"
+private const val TRAILERS_URL = "2"
 class DetailActivity : YouTubeBaseActivity() {
     private lateinit var tvTitle: TextView
     private lateinit var tvOverview: TextView
