@@ -11,6 +11,7 @@ import okhttp3.Headers
 import org.json.JSONException
 
 private const val TAG = "MainActivity"
+// Add API url key here
 private const val NOW_PLAYING_URL = "5"
 class MainActivity : AppCompatActivity() {
     private val movies = mutableListOf<Movie>()
